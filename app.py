@@ -1,3 +1,5 @@
+import streamlit as st
+ 
 # Set up the page title and layout
 st.set_page_config(page_title="File Upload App", layout="centered")
  
@@ -31,4 +33,3 @@ if uploaded_file:
  
     else:
         st.write("File type not supported for preview.")
- 
